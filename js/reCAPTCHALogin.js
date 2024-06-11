@@ -1,24 +1,20 @@
-//Antes de enviar los datos del formulario debemos de validar el CAPTCHA
 document.addEventListener("DOMContentLoaded", 
 function() 
 {
-document.getElementById("frmlogin").addEventListener('submit', revisarform); 
+    document.getElementById("frmlogin").addEventListener('submit', revisarform); 
 });
-
 function revisarform(evento) 
 {
-evento.preventDefault();
-//Si el CAPTCHA es el mismo de la imagen entonces enviará los datos al login.php
-if(validarrecaptcha()===true) 
+    evento.preventDefault();
+    if(validarrecaptcha()===true) 
     {
-          this.submit();
+        this.submit();
     }
-    else //Caso contrario limpiará el formulario
+    else
     {
-     document.getElementById("frmlogin").reset();
+        document.getElementById("frmlogin").reset();
     }
 }
-//Creación del CAPTCHA
 var codvai1='';
 function crearrecaptcha() 
 {
@@ -37,11 +33,10 @@ function crearrecaptcha()
     }
     vericodigovai.innerHTML=codvai1;
 }
-//Validación del CAPTCHA
 function validarrecaptcha() 
 {
     var codingresado=document.getElementById("txtrecaptcha").value.toUpperCase();
-if(codingresado!=codvai1)
+    if(codingresado!=codvai1)
     {
         alert("reCAPTCHA Incorrecto, intenta de nuevo");
         crearrecaptcha();

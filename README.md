@@ -20,7 +20,7 @@ Los datos enviados a través de ambos formularios son procesados por scripts PHP
 
 En resumen, esta práctica demuestra la implementación de un sistema de gestión de acceso de usuarios seguro y eficiente, utilizando tecnologías web estándar como PHP, MySQL y Recaptcha. La inclusión de Recaptcha mejora significativamente la seguridad del sistema al protegerlo contra ataques automatizados.
 
-**Consulta la versión preliminar de la practica aquí:** [https://practica_11.com](https://alejandrovillegas.net/projects/practice-11/index.html)
+**Consulta la versión preliminar de la practica aquí:** [https://practica_11.com](https://www.alejandrovillegas.dev/projects/practice-11/index.html)
 
 # 📌 Información de la Practica
 
@@ -32,7 +32,7 @@ Esta practica ha sido desarrollado como parte del portafolio de soluciones tecno
 
 - **Fecha de Desarrollo**: 17 de noviembre de 2018
 
-- **Portafolio de Proyectos**: [www.alejandrovillegas.net](https://www.alejandrovillegas.net/)
+- **Portafolio de Proyectos**: [www.alejandrovillegas.dev](https://www.alejandrovillegas.dev)
 
 # Guía de Instalación y Configuración
 
